@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FragmentExampleActivity!</string>
+    <string name="app_name">FragmentExample</string>
+    <string-array name="content_index">
+        <item >Weight</item>
+        <item >Length</item>
+    </string-array>
+
+    
+    <string name="conversion">Conversion</string>
+    
+    <string name="gongzhi">GongZhi</string>
+    <string name="ton">Ton</string>
+    <string name="kg">kg</string>
+    <string name="g">g</string>
+    <string name="mg">Ton</string>
+    
+    <string name="shizhi">ShiZhi</string>
+    <string name="shijin">Shijin</string>
+    <string name="dan">Dan</string>
+    <string name="liang">Liang</string>
+    <string name="qian">Qian</string>
+    
+    <string name="jinhengzhi">JinHengZhi</string>
+    <string name="jinhengbang">JinHengBang</string>
+    <string name="jinhengangsi">JinHengAnSi</string>
+    <string name="jinhenggeling">JinHengGeLing</string>
+    <string name="yingqian">YingQian</string>
+    
+    <string name="changhengzhi">JinHengZhi</string>
+    <string name="changdun">JinHengBang</string>
+    <string name="duandun">JinHengAnSi</string>
+    <string name="yingdan">JinHengGeLing</string>
+    <string name="meidan">YingQian</string>
+     <string name="yingshi">JinHengZhi</string>
+    <string name="bang">JinHengBang</string>
+    <string name="angsi">JinHengAnSi</string>
+    <string name="dalan">JinHengGeLing</string>
+    <string name="geling">YingQian</string>
+    
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FragmentExampleActivity!</string>
+    <string name="app_name">单位转换</string>
+    <string-array name="content_index">
+        <item >重量</item>
+        <item >长度</item>
+    </string-array>
+
+    <string name="conversion">转换</string>
+    
+    <string name="gongzhi">公制</string>
+    <string name="ton">吨</string>
+    <string name="kg">公斤(kg)</string>
+    <string name="g">克(g)</string>
+    <string name="mg">毫克(mg)</string>
+    
+    <string name="shizhi">市制</string>
+    <string name="shijin">市斤</string>
+    <string name="dan">担</string>
+    <string name="liang">两</string>
+    <string name="qian">钱</string>
+    
+     <string name="jinhengzhi">金衡制</string>
+    <string name="jinhengbang">金衡磅</string>
+    <string name="jinhengangsi">金衡盎司</string>
+    <string name="jinhenggeling">金衡格令</string>
+    <string name="yingqian">英钱(dwt)</string>
+    
+    
+    <string name="changhengzhi">常衡制</string>
+    <string name="changdun">长吨(英制)</string>
+    <string name="duandun">短吨(美制)</string>
+    <string name="yingdan">英担</string>
+    <string name="meidan">美担</string>
+     <string name="yingshi">英石</string>
+    <string name="bang">磅(lb)</string>
+    <string name="angsi">盎司(oz)</string>
+    <string name="dalan">打兰(dr)</string>
+    <string name="geling">格令</string>
+</resources>

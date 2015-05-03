@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<!-- 公制 -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gongzhi" />
+    
+	<!-- 吨 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/ton" >
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 公斤（Kg） -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/kg" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 克（g） -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/g" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 毫克（mg） -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/mg" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 市制 -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shizhi" />
+	<!-- 市斤 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/shijin" >
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 担 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/dan" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 两 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/liang" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 钱 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/qian" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 金衡制 -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jinhengzhi" />
+	<!-- 金衡磅 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/jinhengbang" >
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 金衡盎司 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/jinhengangsi" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 金衡格令 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/jinhenggeling" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 英钱(dwt) -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/yingqian" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 常衡制 -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changhengzhi" />
+    
+	<!-- 长吨(英制) -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/changdun" >
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 短吨(美制) -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/duandun" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 英担 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/yingdan" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 美担 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/meidan" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 英石 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/yingshi" >
+        </TextView>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 磅(lb)-->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/bang" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    
+    <!-- 盎司(oz) -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/angsi" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 打兰(dr) -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/dalan" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+    <!-- 格令 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/geling" >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLength="10"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:layout_weight="6">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/conversion" >
+        </Button>
+    </TableRow>
+</TableLayout>
